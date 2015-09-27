@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.09.2015, 20:40:42
+    Author     : Виталий
+*/
+header{
+    border-bottom: 1px solid rgb(0,0,0);
+}
+.head{
+
+}
+#menu-ico{
+    float: right;
+    font-size: 48px !important;
+    margin: -57px 8px 0 0px;
+    color: rgb(0,0,0);
+}
+#logo{
+    text-align: center;
+    padding: 0 0 11px 0px;
+}
+#logo img{
+    height: 39px;
+}
+#content .titleimage{
+    margin: 17px 0 0 7px;
+}
+#content .titleimage img{
+    height: 292px;
+}
+#content .pagetitle{
+    margin: 16px 0 0 5px;
+}
+#content .pagetitle .pagetitleText{
+    font-family: "Helvetica"; 
+    font-size: 28px;
+    color:rgb(32,22,0);
+}
+
+.Price{
+    margin: 58px 0 0 10px;
+}
+.Price img{
+    height: 54px;
+}
+.PriceTitletext{
+    float: right;
+    margin: 14px 18px 0 0px;
+    font-size: 26px;
+}
+.Location{
+    margin: 0 0 0 11px;
+    border-bottom: 1px solid rgb(0,0,0);
+    padding: 0px 0 14px 0;
+}
+.Location img{
+    margin: 18px 0 0 5px;
+    height: 53px;
+}
+.LocationTitletext{
+    float: right;
+    margin: 35px 30px 0 0;
+    font-size: 23px;
+}

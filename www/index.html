@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="cordova_plugins.js"></script>
+        <script src="js/jq/external/jquery.js"></script>
+        <script src="js/jq/jquery-2.1.4.min.js"></script>
+        <script src="js/jq/jquery-ui.js"></script>
+        <script src="js/jq/jquery-ui.min.js"></script>
+        <script src="js/jq/jquery.min.js"></script>
+        <script src="js/jq/jquery.touchSwipe.js"></script>
+        <script src="js/index.js"></script>
+        <!--<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>-->
+        <script>
+            $(document).ready(function () {
+                console.log("ready!");
+                getProjectList();
+
+
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <div id="logo"><img src="img/header.png"></div><i id="menu-ico" class="fa fa-bars"></i>
+            </div>
+        </header>
+        <div id="content">
+
+        </div>
+    </body>
+</html>
